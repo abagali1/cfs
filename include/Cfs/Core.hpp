@@ -17,8 +17,7 @@ class Core{
     private:
         string name;
         Mode state;
-        map<string, Submodule> submodules;
-        AntennaDeployer *antenna_deployer;
+        map<string, Submodule*> submodules;
 
     public:
         Core(string name);

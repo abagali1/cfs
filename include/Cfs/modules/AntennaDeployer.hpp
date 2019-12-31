@@ -1,3 +1,5 @@
+#pragma once
+
 #include <Cfs/Submodule.hpp>
 
 class AntennaDeployer: public Submodule{

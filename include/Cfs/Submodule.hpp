@@ -8,9 +8,8 @@
 using namespace std;
 class Submodule{
     public:
-        string name;
-        Submodule(){
-            cout << "Creating submodule: " << this->name << endl;
+        Submodule(string name){
+            cout << "Creating submodule: " << name << endl;
         }
         void start(){
             log("Starting submodule: " + this->name);
@@ -23,5 +22,6 @@ class Submodule{
         }
 
     private:
+        string name;
         map<string, Submodule> modules;      
 };
