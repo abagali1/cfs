@@ -24,19 +24,14 @@ Starting submodule: AntennaDeployer
 
 
 ## How does C++ work
-C++ is a _compiled_ language meaning that the source files must be compiled and then be executed.
-
-The C++ compiled code is usually refered to as "program", but is also called "machine code", "binary file", or "executable"
-
-C++ is _not_ Python because there is no interpreter
-
-C++ is _not_ Java because there is no JVM/anything that acts as an execution environment
-
-C++ compiles sources straight into **machine code** that is specific to the computer on which it was compiled on. 
-
-This means that(generally) a C++ program **cannot** be run on different computer and must be recompiled
-
-The built-in C++ compiler is `g++`, but `cmake` is utilized for larger projects(such as this)
+### Basic Understanding
+* C++ is a _compiled_ language meaning that the source files must be compiled and then be executed.
+* The C++ compiled code is usually refered to as "program", but is also called "machine code", "binary file", or "executable"
+* C++ is _not_ Python because there is no interpreter
+* C++ is _not_ Java because there is no JVM/anything that acts as an execution environment
+* C++ compiles sources straight into **machine code** that is specific to the computer on which it was compiled on. 
+* This means that(generally) a C++ program **cannot** be run on different computer and must be recompiled
+* The built-in C++ compiler is `g++`, but `cmake` is utilized for larger projects(such as this)
 
 
 
