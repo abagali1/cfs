@@ -1,17 +1,11 @@
 #pragma once
 
 #include <iostream>
-#include <iterator>
 #include <map>
-#include <unistd.h>
 
 #include <Cfs/Submodule.hpp>
 #include <Cfs/modules/AntennaDeployer.hpp>
-
-enum Mode{
-    NORMAL,
-    LOW_POWER
-};
+#include <Cfs/helpers/mode.hpp>
 
 class Core{
     private:
