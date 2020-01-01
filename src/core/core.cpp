@@ -8,9 +8,12 @@ Core::Core(string name){
     
     this->name = name;
     this->state = LOW_POWER;
-    this->submodules.insert({"AntennaDeployer", new AntennaDeployer("AntennaDeployer")});
+    this->submodules.insert({"AntennaDeployer", new AntennaDeployer("AntennaDeployer", "/dev/i2c-1")});
 };
 
+Mode Core::getState(){
+    return this->state;
+};
 
 void Core::start() {
     for(auto const& submodule : submodules){

@@ -22,6 +22,10 @@ class Core{
     public:
         Core(string name);
         void start();
+        void enterNormalMode(string reason = "");
+        void enterLowPowerMode(string reason = "");
+        Submodule* request(string moduleName);
+        Mode getState();
         
 };
 
