@@ -13,6 +13,7 @@
 `make`
 5. Run the program
 `./cfs`
+
 Expected Output:
 ```
 INFO: Starting Application
