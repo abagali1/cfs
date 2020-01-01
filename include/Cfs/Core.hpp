@@ -21,6 +21,8 @@ class Core{
 
     public:
         Core(string name);
+        void start();
+        
 };
 
 
