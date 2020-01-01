@@ -6,5 +6,4 @@
 AntennaDeployer::AntennaDeployer(string name)
 : Submodule(name)
 {
-    this->name = name;
 }
