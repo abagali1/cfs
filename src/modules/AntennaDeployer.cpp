@@ -1,5 +1,6 @@
 #include <iostream>
 
+#include <Cfs/helpers/log.hpp>
 #include <Cfs/modules/AntennaDeployer.hpp>
 
 
@@ -10,5 +11,6 @@ AntennaDeployer::AntennaDeployer(string name, string address)
 };
 
 void AntennaDeployer::start(){
-    log("INFO: Starting AntennaDeployer on address: " + this->address);
+    Log l("AntennaDeployer", "INFO", "Started on " + this->address);
+    log(l.toString());
 };
