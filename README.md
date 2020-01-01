@@ -1,5 +1,5 @@
 # Learning C++ through cFS
-
+This project is a C++ translation of this project: https://github.com/TJREVERB/pfs
 
 ## Running the code
 
@@ -32,6 +32,19 @@ Starting submodule: AntennaDeployer
 * C++ compiles sources straight into **machine code** that is specific to the computer on which it was compiled on. 
 * This means that(generally) a C++ program **cannot** be run on different computer and must be recompiled
 * The built-in C++ compiler is `g++`, but `cmake` is utilized for larger projects(such as this)
+
+### Directory Structure
+```
+build/ # place to store generated build files
+include/ # place for header (.h/.hpp) files
+  Cfs/ # Always the project name by convention
+    modules/ # header files for submodules
+src/ # source files + private header files
+  core/ # core source file
+  modules/ # submodule source files
+  main.cpp # equivalent to main.py
+CMakeLists.txt # cmake configuration
+```
 
 
 
