@@ -13,6 +13,16 @@
 `make`
 5. Run the program
 `./cfs`
+Expected Output:
+```
+INFO: Starting Application
+INFO: Creating Core: core
+INFO: Creating Submodule: AntennaDeployer
+Starting submodule: AntennaDeployer
+```
+
+
+## How does C++ work
 
 
 ## What is CMake?
@@ -46,4 +56,3 @@ https://medium.com/heuristics/c-application-development-part-1-project-structure
 
 Example CMake project here:
 https://github.com/AakashMallik/sample_cmake
-
